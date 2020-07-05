@@ -4,7 +4,10 @@ const connectDB=require("./config/db");
 
 const app=express();
 
+
 connectDB();
+
+app.use(express.json({extented:false}));
 
 app.get('/',(req,res)=>{
     res.send("API running")
