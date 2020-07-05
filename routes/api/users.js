@@ -27,9 +27,9 @@ router.post('/',[
         }
 
         const avatar=gravatar.url(email,{
-            s:"200",
-            r:"pg",
-            d:"mm"
+            s:'200',
+            r:'pg',
+            d:'mm'
         });
 
         user=new User({
