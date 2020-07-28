@@ -154,7 +154,8 @@ router.post(
         user: req.user.id
       };
 
-      post.comments.unshift(newComment);
+      post.comments.unshift(newComment);    // Make sure comment exists
+
 
       await post.save();
 
