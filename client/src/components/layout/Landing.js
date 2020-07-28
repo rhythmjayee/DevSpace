@@ -14,8 +14,7 @@ const Landing = ({ isAuthenticated }) => {
         <div className='landing-inner'>
           <h1 className='x-large'>Developer Portal</h1>
           <p className='lead'>
-            Create a developer profile/portfolio, share posts and get help from
-            other developers
+           Create || Share || Discuss
           </p>
           <div className='buttons'>
             <Link to='/register' className='btn btn-primary'>
