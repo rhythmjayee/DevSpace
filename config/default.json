@@ -1,7 +1,7 @@
 {
-    "mongoURI":"mongodb+srv://admin:test123@cluster0.bqs2i.mongodb.net/DevPortal?retryWrites=true&w=majority",
-    "jwtsecret":"Secret",
-    "githubClientID":"55e67df7dfc5fe1773d5",
-    "githubSecret":"ca09c412879652e8fe8b69b3b47a7b7205740447" ,
-    "githubToken":"791bcd6d53d3cd7e0a6cb3a488b64d3fd99ea389"  
+    "mongoURI":"",
+    "jwtsecret":"",
+    "githubClientID":"",
+    "githubSecret":"" ,
+    "githubToken":""  
 }
